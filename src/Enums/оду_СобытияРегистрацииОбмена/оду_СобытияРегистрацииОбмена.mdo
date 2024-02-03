@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc4abcd1-e29e-43e5-ab78-965bb611a3d4">
+  <producedTypes>
+    <refType typeId="ee118749-e9ac-4649-bda1-f8c4879e4d98" valueTypeId="eaacb1c9-7508-4d00-a402-0117c5776cdc"/>
+    <listType typeId="49067698-1f23-4895-a29e-43d3f101714a" valueTypeId="8e34a0c6-ab7e-42eb-aa78-73e5a10b3c77"/>
+    <managerType typeId="d9b83576-a750-4bf0-abf5-a404dc988f47" valueTypeId="afc6c210-478c-4d45-8adf-271eeac787fe"/>
+  </producedTypes>
+  <name>оду_СобытияРегистрацииОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>События регистрации обмена (УОД)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ee2c32ef-ea2f-48b8-8135-c1adbf3001d8">
+    <name>ПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>При записи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f15ec32-2453-47f1-814e-796106dc93d3">
+    <name>ПоРегламенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>По регламенту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b39f404d-5c89-464a-8256-eeb3eea79766">
+    <name>Произвольное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

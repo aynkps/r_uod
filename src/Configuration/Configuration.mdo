@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5d33694-04fe-4b33-a548-ae0c1b2311d5">
+  <name>УОД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный обмен данными</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6a6486ad-6d37-4df9-a340-1e7c513642c5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ec2e57d8-3524-4392-982f-c0a46272b1d3"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5cd11411-0d89-434a-aaa9-f07a28736a0c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6ab1a427-6bf9-47dc-941f-928af466d4ec"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="50d79a10-f9e8-4174-81af-96c83d07449f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b73b32f6-e724-4dac-96f9-b86a675bf4b2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ed511bb2-d066-49a4-815a-c9650ae184b9"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>оду_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="b49f7dcf-c75a-421a-98a8-6d8042920ccc" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.оду_ОбменДанными</subsystems>
+  <commonPictures>CommonPicture.ТелеграмБольшойЛоготип</commonPictures>
+  <commonPictures>CommonPicture.УОД</commonPictures>
+  <roles>Role.оду_Администрирование</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.оду_Общий</commonModules>
+  <commonModules>CommonModule.оду_ОбщийПовтИсп</commonModules>
+  <commonModules>CommonModule.оду_Клиент</commonModules>
+  <commonModules>CommonModule.оду_ОбменДанными</commonModules>
+  <commonModules>CommonModule.оду_ПроизвольныеЗарпосы</commonModules>
+  <exchangePlans>ExchangePlan.оду_ПланОбмена</exchangePlans>
+  <httpServices>HTTPService.оду_universalExchange</httpServices>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ПроведениеДокументов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьУдаление</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменение</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.оду_РегламентОбмена</scheduledJobs>
+  <scheduledJobs>ScheduledJob.оду_ОтложенноеПроведение</scheduledJobs>
+  <functionalOptions>FunctionalOption.оду_ИспользоватьУниверсальныйОбмен</functionalOptions>
+  <commonCommands>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</commonCommands>
+  <constants>Constant.оду_ИспользоватьУниверсальныйОбмен</constants>
+  <commonForms>CommonForm.оду_ФормаНастроекУниверсальногоОбмена</commonForms>
+  <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.оду_ПравилаРегистрацииОбмена</catalogs>
+  <catalogs>Catalog.оду_НастройкаКонвертацииДанных</catalogs>
+  <catalogs>Catalog.оду_БазыУчастникиОбмена</catalogs>
+  <documents>Document.ОперацияБух</documents>
+  <documents>Document.ПриходныйКассовыйОрдер</documents>
+  <enums>Enum.оду_РежимОбмена</enums>
+  <enums>Enum.оду_СостоянияОбмена</enums>
+  <enums>Enum.оду_СпособОбменаДанными</enums>
+  <enums>Enum.оду_КонфигурацияКонвертацииДанных</enums>
+  <enums>Enum.оду_СобытияРегистрацииОбмена</enums>
+  <enums>Enum.оду_СостоянияПроизвольногоЗапроса</enums>
+  <dataProcessors>DataProcessor.оду_УниверсальныйОбменДаннымиXML</dataProcessors>
+  <informationRegisters>InformationRegister.оду_НастройкиИнформационнойБазы</informationRegisters>
+  <informationRegisters>InformationRegister.оду_ОшибкиОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.оду_РегистрацияОбъектовОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.оду_СостояниеОбъектовОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.оду_СинхронизацияРегистровУчета</informationRegisters>
+  <informationRegisters>InformationRegister.оду_СостояниеПроизвольныхЗапросов</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c744681-5dd0-4c34-8d42-9a24f76c411d">
+  <name>ПроизвольныеЗапросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Произвольные запросы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.оду_СостояниеПроизвольныхЗапросов</content>
+  <content>Enum.оду_СостоянияПроизвольногоЗапроса</content>
+  <content>CommonModule.оду_ПроизвольныеЗарпосы</content>
+  <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4eef3f7-9457-41b0-b569-cf02e6d8d344">
+  <name>оду_ПроизвольныеЗарпосы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оду произвольные зарпосы</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

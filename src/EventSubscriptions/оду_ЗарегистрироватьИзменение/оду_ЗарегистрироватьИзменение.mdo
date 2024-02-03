@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9502d81d-7cb7-48ad-b243-f96fb106621c">
+  <name>оду_ЗарегистрироватьИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оду зарегистрировать изменение</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.оду_ПравилаРегистрацииОбмена</types>
+    <types>CatalogObject.оду_БазыУчастникиОбмена</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.оду_НастройкаКонвертацииДанных</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.оду_Общий.РегистрацияПередЗаписью</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6688a39-940a-49f6-9ab7-7f5ab5bef490">
+  <name>БСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>БСП</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Организации</content>
+  <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
+</mdclass:Subsystem>

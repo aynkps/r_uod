@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c2be29f-7fda-4f2f-a317-6313fc3be26a">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.оду_ИспользоватьУниверсальныйОбмен</content>
+  <content>ScheduledJob.оду_РегламентОбмена</content>
+  <content>DataProcessor.оду_УниверсальныйОбменДаннымиXML</content>
+  <content>CommonPicture.УОД</content>
+  <content>CommonPicture.ТелеграмБольшойЛоготип</content>
+  <content>InformationRegister.оду_СинхронизацияРегистровУчета</content>
+  <content>ExchangePlan.оду_ПланОбмена</content>
+  <content>ScheduledJob.оду_ОтложенноеПроведение</content>
+  <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
+</mdclass:Subsystem>

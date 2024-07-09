@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae1d8b27-8706-4443-b85c-53f0423657cf">
+  <name>оду_ВыполнитьУниверсальныйОбменПоОбъекту</name>
+  <synonym>
+    <key>ru</key>
+    <value>УОД</value>
+  </synonym>
+  <comment>Регистрация объекта для обмена</comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.оду_БазыУчастникиОбмена</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.оду_НастройкаКонвертацииДанных</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Зарегистрировать объект для обмена</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УОД</picture>
+  </picture>
+</mdclass:CommonCommand>

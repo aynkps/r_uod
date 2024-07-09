@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c03640e6-4ff4-4fba-a3aa-76085af5d2d9">
+  <producedTypes>
+    <managerType typeId="ed074cfa-14cf-42fd-aea2-d8240c66df26" valueTypeId="08137e0c-52cc-4569-9bce-e4074f04ec82"/>
+    <valueManagerType typeId="df8f8272-eafe-4fb6-9f55-261ced2cb4ee" valueTypeId="f47da039-c20f-4532-afbc-ac9f5f7709fd"/>
+    <valueKeyType typeId="11dd9317-1324-471d-b3b7-6a52475ca33b" valueTypeId="2dc696c9-08aa-4d36-a844-6a26dfa0c0fa"/>
+  </producedTypes>
+  <name>оду_ИспользоватьУниверсальныйОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать универсальный обмен (УОД)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.оду_ФормаНастроекУниверсальногоОбмена</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae1d8b27-8706-4443-b85c-53f0423657cf">
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47892c5e-8a09-4dd0-a21e-2129868dd4f3">
   <name>оду_ВыполнитьУниверсальныйОбменПоОбъекту</name>
   <synonym>
     <key>ru</key>
@@ -7,11 +7,7 @@
   </synonym>
   <comment>Регистрация объекта для обмена</comment>
   <group>FormCommandBarImportant</group>
-  <commandParameterType>
-    <types>CatalogRef.оду_БазыУчастникиОбмена</types>
-    <types>CatalogRef.Организации</types>
-    <types>CatalogRef.оду_НастройкаКонвертацииДанных</types>
-  </commandParameterType>
+  <commandParameterType/>
   <parameterUseMode>Multiple</parameterUseMode>
   <representation>Auto</representation>
   <toolTip>

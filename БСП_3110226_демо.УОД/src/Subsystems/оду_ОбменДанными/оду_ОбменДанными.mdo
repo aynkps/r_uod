@@ -19,14 +19,14 @@
   <content>Enum.оду_СостоянияОбмена</content>
   <content>Enum.оду_РежимОбмена</content>
   <content>HTTPService.оду_universalExchange</content>
-  <content>EventSubscription.оду_ЗарегистрироватьИзменение</content>
-  <content>EventSubscription.оду_ЗарегистрироватьУдаление</content>
-  <content>EventSubscription.оду_ПроведениеДокументов</content>
-  <content>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</content>
+  <content>9502d81d-7cb7-48ad-b243-f96fb106621c</content>
+  <content>4ada1cee-c94f-4150-b733-1e7c330b246f</content>
+  <content>0508ba6d-0d97-4a0f-aff9-94fb2898694c</content>
+  <content>c4996020-27b9-42a2-b174-fe9bd591462f</content>
   <content>CommonModule.оду_ОбщийПовтИсп</content>
   <content>CommonModule.оду_Общий</content>
   <content>Role.оду_Администрирование</content>
-  <content>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</content>
+  <content>ae1d8b27-8706-4443-b85c-53f0423657cf</content>
   <content>CommonModule.оду_Клиент</content>
   <content>CommonModule.оду_ОбменДанными</content>
   <content>FunctionalOption.оду_ИспользоватьУниверсальныйОбмен</content>

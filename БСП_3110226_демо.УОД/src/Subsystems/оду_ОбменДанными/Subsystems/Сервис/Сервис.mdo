@@ -12,8 +12,15 @@
   <content>DataProcessor.оду_УниверсальныйОбменДаннымиXML</content>
   <content>CommonPicture.УОД</content>
   <content>CommonPicture.ТелеграмБольшойЛоготип</content>
-  <content>InformationRegister.оду_СинхронизацияРегистровУчета</content>
   <content>ExchangePlan.оду_ПланОбмена</content>
   <content>ScheduledJob.оду_ОтложенноеПроведение</content>
+  <content>InformationRegister.оду_СинхронизацияРегистровУчета</content>
+  <content>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменение</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменениеПриЗаписи</content>
+  <content>EventSubscription.оду_ЗарегистрироватьИзменениеРС</content>
+  <content>EventSubscription.оду_ЗарегистрироватьУдаление</content>
+  <content>EventSubscription.оду_ПроведениеДокументов</content>
   <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
 </mdclass:Subsystem>

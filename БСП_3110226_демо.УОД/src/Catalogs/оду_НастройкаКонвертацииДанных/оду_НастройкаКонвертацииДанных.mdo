@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a816e01c-f87d-4a92-9b4f-e4e1d9010e69">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="650c04c2-f152-47b4-93a6-9c3dab4cd64f">
   <producedTypes>
-    <objectType typeId="f3b7f489-b2d6-4416-b254-031b88cdf585" valueTypeId="6e27de58-4580-45b1-b5f5-d01b78693f62"/>
-    <refType typeId="f3430fde-d28e-4fb7-9c4b-474e3735b35f" valueTypeId="3bdc6f6e-cbf7-41f1-a57b-1a1236254ed4"/>
-    <selectionType typeId="0f100498-49d2-41f0-af7a-ce1eb3a24eb2" valueTypeId="d2c88a3f-1638-433d-9f25-7039ca109145"/>
-    <listType typeId="7fb97e8b-f1d7-4934-80fc-df3f1c6e58f2" valueTypeId="ba198368-25b3-4dd0-a906-97538617a370"/>
-    <managerType typeId="3f9d4dd4-8c1a-41ba-878d-6d64d5fde757" valueTypeId="4373cf09-8926-4dcd-85a3-1ef79b73ffda"/>
+    <objectType typeId="749fa08f-cda4-4250-8fe0-57eb9a41e5c5" valueTypeId="074339c8-f582-467f-8319-6a510b23723c"/>
+    <refType typeId="558c010b-e5d3-445f-8350-ffa31fb4bba5" valueTypeId="86bb3264-e11c-4a2e-bfaf-883d15953e2e"/>
+    <selectionType typeId="f0f95ef8-0ad9-4765-8de5-e218ba4ec35e" valueTypeId="f625dc98-6c5f-402f-a653-429fde32207f"/>
+    <listType typeId="77a4d560-1d52-46b0-b643-7226fb257f89" valueTypeId="f3ed9395-8469-4755-b068-b2b4741be742"/>
+    <managerType typeId="31249238-af81-4d3f-906e-e3df1b7f3d35" valueTypeId="abb79cb3-38c1-4f20-8529-21b7139be0dd"/>
   </producedTypes>
   <name>оду_НастройкаКонвертацииДанных</name>
   <synonym>
@@ -103,7 +103,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.оду_НастройкаКонвертацииДанных.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="c58283b0-3449-4664-ad4b-2d298eadfbca">
+  <attributes uuid="a8b6bad0-7111-4a59-bf3c-2d80a2eac3d5">
     <name>Используется</name>
     <synonym>
       <key>ru</key>
@@ -119,7 +119,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="812d562f-b69b-4e19-8ed7-93ff8fa4b037">
+  <attributes uuid="60974e6d-672a-4768-ac1e-cfc3c21ba3bb">
     <name>РежимОтладки</name>
     <synonym>
       <key>ru</key>
@@ -134,7 +134,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="dca6c97b-dd63-4459-8c90-8278afab47f3">
+  <attributes uuid="8de6df00-35e6-4966-b615-2323cabb8094">
     <name>КонфигурацияКонвертацииОбмена</name>
     <synonym>
       <key>ru</key>
@@ -150,7 +150,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7ed2ba82-3bb4-40f6-9438-bbc4ed2d00c4">
+  <attributes uuid="1ba18d94-80c9-4f4a-9cdd-a798093b92af">
     <name>ИДКонфигурацииИсточника</name>
     <synonym>
       <key>ru</key>
@@ -170,7 +170,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3b18f994-0e45-4100-9b1a-4a936bdddbd1">
+  <attributes uuid="e072ef10-8ce1-4a51-ac63-44aea5907ee1">
     <name>ИДКонфигурацииПриемника</name>
     <synonym>
       <key>ru</key>
@@ -190,7 +190,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9325988c-b9ff-43e4-8a6e-c0477ac56298">
+  <attributes uuid="0c76929f-7a30-4043-9db8-29c33aef5dc9">
     <name>ПОД</name>
     <synonym>
       <key>ru</key>
@@ -209,7 +209,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f122d394-37f2-4d49-b820-11deb27f2ea1">
+  <attributes uuid="e8b3210d-36e9-41fb-ae14-8cbd3ecf7640">
     <name>ИмяПВД</name>
     <synonym>
       <key>ru</key>
@@ -229,7 +229,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3a46eb29-6f73-40b5-afb2-43f3dd8e2326">
+  <attributes uuid="8a64b821-f10a-4e1d-a97f-3744345f4eed">
     <name>ПравилоВыгрузки</name>
     <synonym>
       <key>ru</key>
@@ -247,7 +247,7 @@
       <value></value>
     </fillValue>
   </attributes>
-  <attributes uuid="bd34ab31-fc72-4049-a1d0-20e4fc51dd71">
+  <attributes uuid="a0af5b51-b4e9-4edc-b6dd-850688b06690">
     <name>ПравилоЗагрузки</name>
     <synonym>
       <key>ru</key>
@@ -265,7 +265,7 @@
       <value></value>
     </fillValue>
   </attributes>
-  <attributes uuid="2a44e5d5-ec22-4150-8139-524440d33d8f">
+  <attributes uuid="74863d69-8017-4479-8422-a04ea67166d0">
     <name>ПравилоОбработкиОтвета</name>
     <synonym>
       <key>ru</key>
@@ -283,7 +283,7 @@
       <value></value>
     </fillValue>
   </attributes>
-  <attributes uuid="bd666f81-2e5b-4b65-9913-1d6f0bc1a762">
+  <attributes uuid="bbc0b20c-e6ce-4d00-85db-9aac37c26570">
     <name>ПутьКОбработкеОтладки</name>
     <synonym>
       <key>ru</key>
@@ -303,7 +303,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="dc594d92-a414-46c3-a8fc-9ed026d3461b">
+  <attributes uuid="6f3687ea-10fd-46a0-a963-22f3fc77f93a">
     <name>ИспользоватьОбработкуБСП</name>
     <synonym>
       <key>ru</key>
@@ -319,7 +319,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e1443034-7a61-4a20-aba2-182a795a571d">
+  <attributes uuid="20fde32f-091b-4eac-8efc-a476802d8764">
     <name>ОбработкаОтладкиБСП</name>
     <synonym>
       <key>ru</key>
@@ -334,7 +334,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="18f4940d-b17b-4837-912e-e2c92ca44a83">
+  <attributes uuid="89c2e6e1-fd78-457b-a6ed-6e58e11180da">
     <name>ПОДИзФайла</name>
     <synonym>
       <key>ru</key>
@@ -349,7 +349,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6816aec6-579c-4396-8436-5ee32cb8ddd2">
+  <attributes uuid="23bdbe4a-f082-483d-a73d-93023e3b2d6f">
     <name>ПОДИзОбработкиБСП</name>
     <synonym>
       <key>ru</key>
@@ -364,7 +364,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="fc47ade1-608b-4ee9-9878-f1a29a4ba2e9">
+  <attributes uuid="bef98630-cef9-4974-9988-add43cdbd24e">
     <name>ПутьКПОД</name>
     <synonym>
       <key>ru</key>
@@ -384,7 +384,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="cd619424-8ac2-42c4-83f0-37935e2a814d">
+  <attributes uuid="48aa491c-0b8a-4e56-95ce-7ff97116f7e4">
     <name>РежимОбмена</name>
     <synonym>
       <key>ru</key>
@@ -399,7 +399,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b76ca977-3275-47de-9388-cca0538a4593">
+  <attributes uuid="f2842c65-ccff-43f6-ae7f-c2d034fa2398">
     <name>КаталогОбмена</name>
     <synonym>
       <key>ru</key>
@@ -420,7 +420,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="02eb9271-aa23-445a-b491-1257d9f0ee24">
+  <attributes uuid="16c42c87-3d43-46b3-8887-8c7644d26546">
     <name>СпособОбменаДанными</name>
     <synonym>
       <key>ru</key>
@@ -435,7 +435,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a7ba0639-d651-42e4-a5a4-d76b3ea455fb">
+  <attributes uuid="4a641df3-1a58-42f6-8879-bd20b96a1496">
     <name>ТипХраненияФайла</name>
     <synonym>
       <key>ru</key>
@@ -455,10 +455,10 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="401c38c8-5555-4109-be89-ff1b9da5e4e0">
+  <tabularSections uuid="3b659a22-4fe4-48dd-954f-16e02352255e">
     <producedTypes>
-      <objectType typeId="d83afcb8-b48d-43bc-9e3e-2a7c9cef65eb" valueTypeId="b50f2f78-9793-4139-96c1-69407650891b"/>
-      <rowType typeId="67ca5c69-6085-420f-ae0f-59a943baafdc" valueTypeId="2b6a2266-ee83-420a-9654-53608102ed65"/>
+      <objectType typeId="982b4fa1-27b5-4a42-9614-4af707269d86" valueTypeId="37f172eb-8ff0-4563-95fa-bd6feda16aed"/>
+      <rowType typeId="17404b5c-b222-403d-8808-29229768b7d2" valueTypeId="27b71bd0-7cb6-42de-9d69-d607be66ee81"/>
     </producedTypes>
     <name>ЭтапыЗапросов</name>
     <synonym>
@@ -473,7 +473,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="d69a7595-6d36-4a56-9a92-73c005c6ab83">
+    <attributes uuid="36c7ff53-1929-4601-9763-fd356e092f6a">
       <name>ОписаниеЗапроса</name>
       <synonym>
         <key>ru</key>
@@ -490,7 +490,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="d4f93c01-dc1f-44f2-bc5d-65d8a4efc55a">
+    <attributes uuid="ecb97e98-f577-499a-9cc8-4366432ee32c">
       <name>РежимОтладки</name>
       <synonym>
         <key>ru</key>
@@ -504,7 +504,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="4faccab5-d511-4164-9b9c-d81c85f75de5">
+    <attributes uuid="2a88db3d-42c6-4f24-a923-79397816c4fa">
       <name>ТребуетсяВводДопНастроекПередВыгрузкой</name>
       <synonym>
         <key>ru</key>
@@ -518,7 +518,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c793f50c-e7cb-4004-8e71-14ead09c3e1b">
+    <attributes uuid="80b44c93-1a77-4354-9dae-b96ecc6da9dc">
       <name>ТекстЗапроса</name>
       <synonym>
         <key>ru</key>
@@ -536,7 +536,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="313d96d4-d709-42d2-92f3-9101f9fbc62c">
+  <forms uuid="775f9bbd-e3b0-4b11-99ee-0bcd2085e325">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

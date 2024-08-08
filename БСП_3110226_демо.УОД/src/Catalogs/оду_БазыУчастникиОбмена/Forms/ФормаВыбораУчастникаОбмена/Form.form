@@ -23,6 +23,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>УчастникиОбъектаОбмена.Выбрать</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>УчастникиОбъектаОбменаВыбратьПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>УчастникиОбъектаОбменаВыбратьРасширеннаяПодсказка</name>
         <id>19</id>
@@ -56,19 +60,19 @@
       <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <items xsi:type="form:FormField">
-      <name>УчастникиОбъектаОбменаУзел</name>
-      <id>14</id>
+      <name>УчастникиОбъектаОбменаСервер</name>
+      <id>50</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>УчастникиОбъектаОбмена.БазаПриемник</segments>
+        <segments>УчастникиОбъектаОбмена.Сервер</segments>
       </dataPath>
       <extendedTooltip>
-        <name>УчастникиОбъектаОбменаУзелРасширеннаяПодсказка</name>
-        <id>16</id>
+        <name>УчастникиОбъектаОбменаСерверРасширеннаяПодсказка</name>
+        <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -82,8 +86,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>УчастникиОбъектаОбменаУзелКонтекстноеМеню</name>
-        <id>15</id>
+        <name>УчастникиОбъектаОбменаСерверКонтекстноеМеню</name>
+        <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -92,7 +96,56 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <readOnly>true</readOnly>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>УчастникиОбъектаОбменаНаименование</name>
+      <id>53</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УчастникиОбъектаОбмена.Наименование</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>УчастникиОбъектаОбменаНаименованиеРасширеннаяПодсказка</name>
+        <id>55</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>УчастникиОбъектаОбменаНаименованиеКонтекстноеМеню</name>
+        <id>54</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -108,7 +161,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>УчастникиОбъектаОбменаИДКонфигурации</name>
-      <id>20</id>
+      <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -119,7 +172,7 @@
       </dataPath>
       <extendedTooltip>
         <name>УчастникиОбъектаОбменаИДКонфигурацииРасширеннаяПодсказка</name>
-        <id>22</id>
+        <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -134,7 +187,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>УчастникиОбъектаОбменаИДКонфигурацииКонтекстноеМеню</name>
-        <id>21</id>
+        <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -158,8 +211,192 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>УчастникиОбъектаОбменаБазаПриемник</name>
+      <id>32</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УчастникиОбъектаОбмена.БазаПриемник</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>УчастникиОбъектаОбменаБазаПриемникРасширеннаяПодсказка</name>
+        <id>34</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>УчастникиОбъектаОбменаБазаПриемникКонтекстноеМеню</name>
+        <id>33</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <readOnly>true</readOnly>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>УчастникиОбъектаОбменаПодчиненныйУчастникОбмена</name>
+      <id>44</id>
+      <title>
+        <key>ru</key>
+        <value>Подчиненный</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УчастникиОбъектаОбмена.ПодчиненныйУчастникОбмена</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>УчастникиОбъектаОбменаПодчиненныйУчастникОбменаРасширеннаяПодсказка</name>
+        <id>46</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>УчастникиОбъектаОбменаПодчиненныйУчастникОбменаКонтекстноеМеню</name>
+        <id>45</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>УчастникиОбъектаОбменаРаспределятьПодчиненнымУО</name>
+      <id>47</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УчастникиОбъектаОбмена.РаспределятьПодчиненнымУО</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>УчастникиОбъектаОбменаРаспределятьПодчиненнымУОРасширеннаяПодсказка</name>
+        <id>49</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>УчастникиОбъектаОбменаРаспределятьПодчиненнымУОКонтекстноеМеню</name>
+        <id>48</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>УчастникиОбъектаОбменаТекущаяБД</name>
+      <id>41</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УчастникиОбъектаОбмена.ТекущаяБД</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>УчастникиОбъектаОбменаТекущаяБДРасширеннаяПодсказка</name>
+        <id>43</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>УчастникиОбъектаОбменаТекущаяБДКонтекстноеМеню</name>
+        <id>42</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
       <name>УчастникиОбъектаОбменаЭтоРабочаяБД</name>
-      <id>23</id>
+      <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -170,7 +407,7 @@
       </dataPath>
       <extendedTooltip>
         <name>УчастникиОбъектаОбменаЭтоРабочаяБДРасширеннаяПодсказка</name>
-        <id>25</id>
+        <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -185,7 +422,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>УчастникиОбъектаОбменаЭтоРабочаяБДКонтекстноеМеню</name>
-        <id>24</id>
+        <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -622,17 +859,14 @@
       </edit>
     </columns>
     <columns>
-      <name>ПриоритетОбъекта</name>
+      <name>ТекущаяБД</name>
       <title>
         <key>ru</key>
-        <value>Приоритет объекта</value>
+        <value>Текущая БД</value>
       </title>
       <id>5</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
+        <types>Boolean</types>
       </valueType>
       <view>
         <common>true</common>
@@ -642,12 +876,64 @@
       </edit>
     </columns>
     <columns>
-      <name>ИДБазыПриемник</name>
+      <name>РаспределятьПодчиненнымУО</name>
       <title>
         <key>ru</key>
-        <value>ИДБазы приемник</value>
+        <value>Распределитель</value>
       </title>
       <id>6</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПодчиненныйУчастникОбмена</name>
+      <title>
+        <key>ru</key>
+        <value>Подчиненный участник обмена</value>
+      </title>
+      <id>7</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Сервер</name>
+      <title>
+        <key>ru</key>
+        <value>Сервер</value>
+      </title>
+      <id>8</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Наименование</name>
+      <title>
+        <key>ru</key>
+        <value>Наименование</value>
+      </title>
+      <id>9</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -661,14 +947,15 @@
     </columns>
   </attributes>
   <attributes>
-    <name>ТекущийПользователь</name>
+    <name>АдресПараметрыРегистрации</name>
     <title>
       <key>ru</key>
-      <value>Текущий пользователь</value>
+      <value>Адрес параметры регистрации</value>
     </title>
     <id>4</id>
     <valueType>
-      <types>CatalogRef.Пользователи</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -740,11 +1027,6 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
-  <parameters>
-    <name>МассивОбъектовОбмена</name>
-    <valueType/>
-    <keyParameter>true</keyParameter>
-  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

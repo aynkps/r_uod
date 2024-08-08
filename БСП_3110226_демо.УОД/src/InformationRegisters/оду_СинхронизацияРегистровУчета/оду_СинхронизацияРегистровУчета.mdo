@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99277432-192e-4e8f-ad1e-be750c50bc2f">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cb8fabf-0c40-4f63-b1c9-2d5f30124ab3">
   <producedTypes>
-    <selectionType typeId="6953aa16-5bd1-4084-9e2a-ba4974952b9d" valueTypeId="7e4f189e-6a41-4430-ae5e-4fbe1d2a339d"/>
-    <listType typeId="15fa15e2-98de-4bf3-b2a5-223cd077a3ef" valueTypeId="bc96f95b-7110-4370-920e-44274a7968a0"/>
-    <managerType typeId="64c82b94-d79a-4a0b-ad76-ea70e84c7081" valueTypeId="e6004f41-3e47-4590-9b67-e746bed42dfd"/>
-    <recordSetType typeId="8cab4eaa-939b-4675-8bcb-282309846d19" valueTypeId="a101aed1-8354-4785-815b-7bc167cf2326"/>
-    <recordKeyType typeId="a5fdc5dd-ceb6-4a90-9ab8-54d1c02bdac2" valueTypeId="51da0327-e44f-4138-bec5-ca83b518a0ae"/>
-    <recordType typeId="5b96562f-2829-4f00-a148-8e4ef78f70d8" valueTypeId="73e853fe-9c8f-4e66-b6c0-7284ac835571"/>
-    <recordManagerType typeId="263ef22e-afe0-4ae2-9cd8-b56b94ae2d80" valueTypeId="f04d4c0f-7a88-4818-a6f3-79cb2780fdcb"/>
+    <selectionType typeId="597243f4-7c54-4a4b-9fad-b82b8738132b" valueTypeId="c4d7c83b-29b3-4294-b85a-6f4c009daeb5"/>
+    <listType typeId="411d8767-21e4-40ec-92c0-f3bf3996555b" valueTypeId="8e792b80-d0bc-44d5-ae82-a4ddfc1f2d42"/>
+    <managerType typeId="742e3fdc-b7f5-423f-9d9a-5b267fb3b181" valueTypeId="4de25da5-df06-49c6-8bc3-726fe0157366"/>
+    <recordSetType typeId="2f64c518-41b4-4c97-ae12-b2f27fd44077" valueTypeId="27c39fa7-f15c-40eb-a473-b4228e9e9fa0"/>
+    <recordKeyType typeId="f56869e5-15c3-4859-96c1-aebdc6c374eb" valueTypeId="c21c55a0-8b94-4bf1-8b02-b4937594b2cc"/>
+    <recordType typeId="a6bbdd61-d5d2-42a2-a86e-6fd5372daaab" valueTypeId="47f1c9a6-c573-40fe-99e0-6214b68db32a"/>
+    <recordManagerType typeId="cfacf7a0-c1df-4665-9eb7-a9f40d3b988b" valueTypeId="6d8305bb-bce0-45f6-a027-91b6392278ee"/>
   </producedTypes>
   <name>оду_СинхронизацияРегистровУчета</name>
   <synonym>
@@ -51,7 +51,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="c1b987b2-4425-43df-9f9a-5ee4ca371d9b">
+  <resources uuid="aeb72521-f185-468e-9cfd-fa4e1b8e7dae">
     <name>Корректировка</name>
     <synonym>
       <key>ru</key>
@@ -70,7 +70,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
   </resources>
-  <resources uuid="e4b455ba-a9c6-413e-8266-c92bfbd26eaf">
+  <resources uuid="ac22bc07-759e-4cf9-964e-bb54fef5b74c">
     <name>ИДОбъектаКорректировки</name>
     <synonym>
       <key>ru</key>
@@ -90,7 +90,7 @@
       <value></value>
     </fillValue>
   </resources>
-  <resources uuid="36d29d7c-b44d-4f4f-bc39-02d80c3ac323">
+  <resources uuid="a9545f23-d09f-4662-a58d-073719a6585b">
     <name>ПричинаОтклонения</name>
     <synonym>
       <key>ru</key>
@@ -110,7 +110,7 @@
       <value></value>
     </fillValue>
   </resources>
-  <dimensions uuid="6e4e06c6-1ba6-4dc0-9e7b-198f0d6bf2d3">
+  <dimensions uuid="d24cfe35-440b-4ada-8884-e35eb85acdbc">
     <name>ОбъектОбмена</name>
     <synonym>
       <key>ru</key>
@@ -129,7 +129,7 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="e73081dc-fffa-417e-aefb-7f187caa8c55">
+  <dimensions uuid="be688b00-77ae-472e-867b-7fc30092edba">
     <name>ИДБазыИсточник</name>
     <synonym>
       <key>ru</key>
@@ -151,7 +151,7 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="7255ffa8-55f5-49c3-818d-9484dd2c25c5">
+  <dimensions uuid="f8facff5-3d71-477e-9c0c-9b0b96d23c6c">
     <name>ИДБазыПриемник</name>
     <synonym>
       <key>ru</key>
@@ -173,7 +173,7 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="b08573be-6fa9-41ca-a613-8201e94536b4">
+  <forms uuid="84d56451-7abd-486d-8e0d-2fe736b530f9">
     <name>ФормаЗаписи</name>
     <synonym>
       <key>ru</key>

@@ -9,6 +9,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
   </extension>
@@ -28,7 +29,6 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="b49f7dcf-c75a-421a-98a8-6d8042920ccc" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -41,8 +41,8 @@
   <subsystems>Subsystem.оду_ОбменДанными</subsystems>
   <commonPictures>CommonPicture.ТелеграмБольшойЛоготип</commonPictures>
   <commonPictures>CommonPicture.УОД</commonPictures>
-  <roles>Role.оду_Администрирование</roles>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.оду_Администрирование</roles>
   <commonModules>CommonModule.оду_Общий</commonModules>
   <commonModules>CommonModule.оду_ОбщийПовтИсп</commonModules>
   <commonModules>CommonModule.оду_Клиент</commonModules>
@@ -51,12 +51,14 @@
   <commonModules>CommonModule.оду_Сервер</commonModules>
   <exchangePlans>ExchangePlan.оду_ПланОбмена</exchangePlans>
   <httpServices>HTTPService.оду_universalExchange</httpServices>
-  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.оду_ПроведениеДокументов</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьУдаление</eventSubscriptions>
   <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменение</eventSubscriptions>
-  <scheduledJobs>ScheduledJob.оду_РегламентОбмена</scheduledJobs>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьИзменениеРС</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ЗарегистрироватьУдаление</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.оду_ПроведениеДокументов</eventSubscriptions>
   <scheduledJobs>ScheduledJob.оду_ОтложенноеПроведение</scheduledJobs>
+  <scheduledJobs>ScheduledJob.оду_РегламентОбмена</scheduledJobs>
   <functionalOptions>FunctionalOption.оду_ИспользоватьУниверсальныйОбмен</functionalOptions>
   <commonCommands>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</commonCommands>
   <constants>Constant.оду_ИспользоватьУниверсальныйОбмен</constants>
@@ -66,20 +68,21 @@
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.оду_ПравилаРегистрацииОбмена</catalogs>
-  <catalogs>Catalog.оду_НастройкаКонвертацииДанных</catalogs>
   <catalogs>Catalog.оду_БазыУчастникиОбмена</catalogs>
-  <enums>Enum.оду_РежимОбмена</enums>
-  <enums>Enum.оду_СостоянияОбмена</enums>
-  <enums>Enum.оду_СпособОбменаДанными</enums>
+  <catalogs>Catalog.оду_НастройкаКонвертацииДанных</catalogs>
+  <catalogs>Catalog.оду_ПравилаРегистрацииОбмена</catalogs>
   <enums>Enum.оду_КонфигурацияКонвертацииДанных</enums>
+  <enums>Enum.оду_РежимОбмена</enums>
   <enums>Enum.оду_СобытияРегистрацииОбмена</enums>
+  <enums>Enum.оду_СостоянияОбмена</enums>
   <enums>Enum.оду_СостоянияПроизвольногоЗапроса</enums>
+  <enums>Enum.оду_СпособОбменаДанными</enums>
   <dataProcessors>DataProcessor.оду_УниверсальныйОбменДаннымиXML</dataProcessors>
+  <informationRegisters>InformationRegister.оду_ВерсииПравилОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.оду_НастройкиИнформационнойБазы</informationRegisters>
   <informationRegisters>InformationRegister.оду_ОшибкиОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_РегистрацияОбъектовОбмена</informationRegisters>
-  <informationRegisters>InformationRegister.оду_СостояниеОбъектовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_СинхронизацияРегистровУчета</informationRegisters>
+  <informationRegisters>InformationRegister.оду_СостояниеОбъектовОбмена</informationRegisters>
   <informationRegisters>InformationRegister.оду_СостояниеПроизвольныхЗапросов</informationRegisters>
 </mdclass:Configuration>

@@ -7,8 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>InformationRegister.оду_СостояниеПроизвольныхЗапросов</content>
   <content>Enum.оду_СостоянияПроизвольногоЗапроса</content>
   <content>CommonModule.оду_ПроизвольныеЗарпосы</content>
+  <content>InformationRegister.оду_СостояниеПроизвольныхЗапросов</content>
   <parentSubsystem>Subsystem.оду_ОбменДанными</parentSubsystem>
 </mdclass:Subsystem>

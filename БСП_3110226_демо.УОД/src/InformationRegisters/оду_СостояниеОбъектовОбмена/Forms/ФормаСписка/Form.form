@@ -82,6 +82,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Auto</behavior>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -102,52 +103,6 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <items xsi:type="form:FormField">
-      <name>БазаИсточник</name>
-      <id>58</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.БазаИсточник</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>БазаИсточникРасширеннаяПодсказка</name>
-        <id>60</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>БазаИсточникКонтекстноеМеню</name>
-        <id>59</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
     <items xsi:type="form:FormField">
       <name>БазаПриемник</name>
       <id>61</id>
@@ -177,6 +132,98 @@
       <contextMenu>
         <name>БазаПриемникКонтекстноеМеню</name>
         <id>62</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Скорость</name>
+      <id>85</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Скорость</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СкоростьРасширеннаяПодсказка</name>
+        <id>87</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СкоростьКонтекстноеМеню</name>
+        <id>86</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>НаименованиеПриемника</name>
+      <id>88</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НаименованиеПриемника</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>НаименованиеПриемникаРасширеннаяПодсказка</name>
+        <id>90</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НаименованиеПриемникаКонтекстноеМеню</name>
+        <id>89</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -336,20 +383,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>НомерПопытки</name>
-      <id>55</id>
+      <name>БазаИсточник</name>
+      <id>58</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.НомерПопытки</segments>
+        <segments>Список.БазаИсточник</segments>
       </dataPath>
-      <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НомерПопыткиРасширеннаяПодсказка</name>
-        <id>57</id>
+        <name>БазаИсточникРасширеннаяПодсказка</name>
+        <id>60</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -363,8 +409,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НомерПопыткиКонтекстноеМеню</name>
-        <id>56</id>
+        <name>БазаИсточникКонтекстноеМеню</name>
+        <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -411,6 +457,53 @@
       <contextMenu>
         <name>ОбъектОбменаКонтекстноеМеню</name>
         <id>68</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>НомерПопытки</name>
+      <id>55</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НомерПопытки</segments>
+      </dataPath>
+      <defaultItem>true</defaultItem>
+      <extendedTooltip>
+        <name>НомерПопыткиРасширеннаяПодсказка</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НомерПопыткиКонтекстноеМеню</name>
+        <id>56</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1048,6 +1141,14 @@
       <event>Selection</event>
       <name>СписокВыбор</name>
     </handlers>
+    <handlers>
+      <event>BeforeDeleteRow</event>
+      <name>СписокПередУдалением</name>
+    </handlers>
+    <handlers>
+      <event>AfterDeleteRow</event>
+      <name>СписокПослеУдаления</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1288,6 +1389,36 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаУправлениеОбменом</name>
+      <id>83</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаУправлениеОбменомРасширеннаяПодсказка</name>
+        <id>84</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.УправлениеОбменом</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1324,24 +1455,26 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ РАЗЛИЧНЫЕ
-	РегистрСведенийоду_СостояниеОбъектовОбмена.ИДОбъекта КАК ИДОбъекта,
+	Приемник.ПриоритетОбмена КАК Скорость,
 	Источник.Ссылка КАК БазаИсточник,
 	Приемник.Ссылка КАК БазаПриемник,
-	РегистрСведенийоду_СостояниеОбъектовОбмена.ИДБазыИсточник КАК ИДБазыИсточник,
-	РегистрСведенийоду_СостояниеОбъектовОбмена.ИДБазыПриемник КАК ИДБазыПриемник,
-	РегистрСведенийоду_СостояниеОбъектовОбмена.РежимОбмена КАК РежимОбмена,
+	Приемник.Наименование КАК НаименованиеПриемника,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.СостояниеОбмена КАК СостояниеОбмена,
+	ЕСТЬNULL(оду_РегистрацияОбъектовОбмена.ОбъектОбмена, НЕОПРЕДЕЛЕНО) КАК ОбъектОбмена,
+	РегистрСведенийоду_СостояниеОбъектовОбмена.ИмяФайлаОбмена КАК ИмяФайлаОбмена,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.ТипXMLОбъектаИсточника КАК ТипXMLОбъектаИсточника,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.ТипXMLОбъектаПриемника КАК ТипXMLОбъектаПриемника,
+	РегистрСведенийоду_СостояниеОбъектовОбмена.ИДБазыИсточник КАК ИДБазыИсточник,
+	РегистрСведенийоду_СостояниеОбъектовОбмена.ИДБазыПриемник КАК ИДБазыПриемник,
+	РегистрСведенийоду_СостояниеОбъектовОбмена.ИДОбъекта КАК ИДОбъекта,
+	РегистрСведенийоду_СостояниеОбъектовОбмена.РежимОбмена КАК РежимОбмена,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.ДатаРегистрации КАК ДатаРегистрации,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.ДатаВыгрузки КАК ДатаВыгрузки,
-	РегистрСведенийоду_СостояниеОбъектовОбмена.ИмяФайлаОбмена КАК ИмяФайлаОбмена,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.ПриоритетОбмена КАК ПриоритетОбмена,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.ПриоритетОбъекта КАК ПриоритетОбъекта,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.ПриоритетДопПризнака КАК ПриоритетДопПризнака,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.НомерПопытки КАК НомерПопытки,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.ОписаниеОшибки КАК ОписаниеОшибки,
-	ЕСТЬNULL(оду_РегистрацияОбъектовОбмена.ОбъектОбмена, НЕОПРЕДЕЛЕНО) КАК ОбъектОбмена,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.СменаИсточникаПриеменикаПриРазрешенииКоллизий КАК СменаИсточникаПриеменикаПриРазрешенииКоллизий,
 	РегистрСведенийоду_СостояниеОбъектовОбмена.КонфигурацияКонвертацииОбмена КАК КонфигурацияКонвертацииОбмена
 ИЗ
@@ -1376,6 +1509,26 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>СписокФайловКУдалению</name>
+    <title>
+      <key>ru</key>
+      <value>Список файлов к удалению</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <formCommands>
     <name>ВыполнитьРегламентОбмена</name>
@@ -1415,6 +1568,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СбросПовторногоИспользования</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УправлениеОбменом</name>
+    <title>
+      <key>ru</key>
+      <value>Управление обменом</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Управление обменом</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УправлениеОбменом</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ada1cee-c94f-4150-b733-1e7c330b246f">
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d4a2819-61c5-4a9b-8f24-420cdc716138">
   <name>оду_ЗарегистрироватьУдаление</name>
   <synonym>
     <key>ru</key>
     <value>Оду зарегистрировать удаление</value>
   </synonym>
   <source>
-    <types>CatalogObject.оду_ПравилаРегистрацииОбмена</types>
+    <types>CatalogObject.оду_НастройкаКонвертацииДанных</types>
     <types>CatalogObject.оду_БазыУчастникиОбмена</types>
     <types>CatalogObject.Организации</types>
-    <types>CatalogObject.оду_НастройкаКонвертацииДанных</types>
+    <types>CatalogObject.оду_ПравилаРегистрацииОбмена</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>CatalogObject</types>
   </source>
   <event>BeforeDelete</event>
   <handler>CommonModule.оду_Общий.РегистрацияПередУдалением</handler>

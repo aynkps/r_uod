@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4996020-27b9-42a2-b174-fe9bd591462f">
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e97e2445-2583-4801-ac9e-6bc026eecae8">
   <name>оду_ЗарегистрироватьИзменениеДокумента</name>
   <synonym>
     <key>ru</key>

@@ -6,30 +6,41 @@
 	</filter>
 	<order>
 		<item xsi:type="OrderItemField">
+			<field>Скорость</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<use>false</use>
 			<field>БазаИсточник</field>
 			<orderType>Asc</orderType>
 		</item>
 		<item xsi:type="OrderItemField">
+			<use>false</use>
 			<field>БазаПриемник</field>
 			<orderType>Asc</orderType>
 		</item>
 		<item xsi:type="OrderItemField">
+			<use>false</use>
 			<field>РежимОбмена</field>
 			<orderType>Asc</orderType>
 		</item>
 		<item xsi:type="OrderItemField">
+			<use>false</use>
 			<field>СостояниеОбмена.Порядок</field>
 			<orderType>Asc</orderType>
 		</item>
 		<item xsi:type="OrderItemField">
+			<use>false</use>
 			<field>ПриоритетОбмена</field>
 			<orderType>Asc</orderType>
 		</item>
 		<item xsi:type="OrderItemField">
+			<use>false</use>
 			<field>ПриоритетОбъекта</field>
 			<orderType>Asc</orderType>
 		</item>
 		<item xsi:type="OrderItemField">
+			<use>false</use>
 			<field>ПриоритетДопПризнака</field>
 			<orderType>Asc</orderType>
 		</item>
@@ -54,7 +65,6 @@
 		<item xsi:type="StructureItemGroup">
 			<groupItems>
 				<item xsi:type="GroupItemField">
-					<use>false</use>
 					<field>БазаПриемник</field>
 					<groupType>Items</groupType>
 					<periodAdditionType>None</periodAdditionType>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3afbc8d-30a5-4ce8-ab20-d2b707ced62b">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe30047a-6127-4f32-abd5-0055387fb114">
   <producedTypes>
-    <objectType typeId="1c3a40ff-084d-4e87-8c2d-febef16987cc" valueTypeId="f0f7f6d4-05b0-4a53-9100-4762c390bc6a"/>
-    <refType typeId="ba9b90fd-618f-43bc-a06c-808caf8c82cb" valueTypeId="a3371b55-5f4d-4fce-9d75-5f2291fe6f49"/>
-    <selectionType typeId="3bb4ade5-737b-42ce-b1cd-8b5e904bf992" valueTypeId="647495d3-3720-40a5-9b71-996a37f3fe7d"/>
-    <listType typeId="f2695d42-df20-4f85-aa17-aa0384f89fee" valueTypeId="c3c59620-d30b-4a06-be8c-eef75c1551e2"/>
-    <managerType typeId="cf865297-aa3c-4c9e-aa4e-d16b1fd22d9a" valueTypeId="5a3b3b7a-c40b-4bd2-9ef7-a562539b3a6d"/>
+    <objectType typeId="ccc42ec6-45f6-46ac-97dc-7ab487040e76" valueTypeId="2d886710-cf5b-4b96-9e3f-3eea7f96c494"/>
+    <refType typeId="6862572d-f947-4c4a-81aa-8735c13c264f" valueTypeId="0cdfefd9-9bc1-435e-be47-0155b7764356"/>
+    <selectionType typeId="6c2e2980-c218-45c0-8823-f50b36f9dc8c" valueTypeId="174c7659-94b9-4d7c-b5ba-26b2e383330c"/>
+    <listType typeId="8f9ce8de-fa9d-44cf-b493-2026e8be784a" valueTypeId="4b7e6344-5d68-4f15-98e6-93ff0b7b47b5"/>
+    <managerType typeId="d42680d5-5288-45f5-9c24-3da179d987f0" valueTypeId="e7a5e898-ea21-4a9d-bb3f-7d3755cf2874"/>
   </producedTypes>
   <name>оду_ПравилаРегистрацииОбмена</name>
   <synonym>
@@ -103,7 +103,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.оду_ПравилаРегистрацииОбмена.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="f18f8591-d675-404f-935d-d94da511eceb">
+  <attributes uuid="9a50ef13-5995-406f-ae40-fdfc78e8d210">
     <name>Используется</name>
     <synonym>
       <key>ru</key>
@@ -119,7 +119,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="61a29cc3-9035-4b94-a06c-81bfcdc48d69">
+  <attributes uuid="cde19abd-f194-4ca5-a00d-277957fee363">
     <name>РежимОтладки</name>
     <synonym>
       <key>ru</key>
@@ -134,7 +134,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="06bcc942-a534-4627-9634-79c3a1967cf9">
+  <attributes uuid="65481ba6-9d90-43e7-80bc-e33be847b57c">
     <name>ПравилоРегистрации</name>
     <synonym>
       <key>ru</key>
@@ -152,7 +152,7 @@
       <value></value>
     </fillValue>
   </attributes>
-  <attributes uuid="1167c0d4-74f7-48f4-811a-b8cc4ad880a9">
+  <attributes uuid="c5d2e42b-1f09-41d8-8808-5dd80f57f934">
     <name>ПутьКОбработкеОтладки</name>
     <synonym>
       <key>ru</key>
@@ -172,7 +172,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="269753d9-6d8f-45e0-af1f-d839db08fe03">
+  <attributes uuid="f2094615-5ead-404d-8223-1df8d78297fa">
     <name>ИспользоватьОбработкуБСП</name>
     <synonym>
       <key>ru</key>
@@ -188,7 +188,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="8ac8e601-479e-4596-8c94-ddede9e3bf60">
+  <attributes uuid="a90d51e0-b26d-4232-a2b7-bafd7aedcde7">
     <name>ОбработкаОтладкиБСП</name>
     <synonym>
       <key>ru</key>
@@ -203,7 +203,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4da0dded-587d-442d-bed8-1c058b397691">
+  <attributes uuid="f34e3e55-6a2c-4b4e-8a07-eead76db5d44">
     <name>СобытиеРегистрации</name>
     <synonym>
       <key>ru</key>
@@ -218,7 +218,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="a6ab8bda-b6cc-401d-836b-0160908dc210">
+  <forms uuid="1beef1bd-ae68-4009-ba7b-3a25e1c8ba6b">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

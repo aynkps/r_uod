@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="880080bb-0a8b-43e4-96b4-93a31888412e">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1f3d0a2-2c38-4167-b594-bbe617d50fb6">
   <producedTypes>
-    <objectType typeId="20884075-e97e-4f0f-acc5-ac7412be965c" valueTypeId="6824ef78-f115-4a10-9c96-d3e01b31fa54"/>
-    <refType typeId="4bb100a7-3ca2-4ba0-a848-eb1eb0a55689" valueTypeId="58a0ab9f-f8d2-436b-92cf-cf950d40d39d"/>
-    <selectionType typeId="a41e4733-fb6a-4efd-b1b5-5906ec6f0732" valueTypeId="3d240569-6cf9-4f1c-9b86-cfbf9c02adfe"/>
-    <listType typeId="0a736cd4-430a-4fb2-afaa-bfe991da4ad8" valueTypeId="0e8ad6a3-131a-436d-8c10-f624c99c7edb"/>
-    <managerType typeId="d142704c-8d84-44cf-979c-027704b5457a" valueTypeId="665a57e4-c14f-436d-8136-d412c6544a97"/>
+    <objectType typeId="a4565ddf-ad63-4224-aebd-5c87a09bbd4a" valueTypeId="17c64a56-f0f4-484b-b3ab-204e56c77b7c"/>
+    <refType typeId="3eae9f28-e6d1-4a0b-ae99-1f5d5bd44b8d" valueTypeId="125b2e56-aaef-4e20-8df9-449ca0e40cfa"/>
+    <selectionType typeId="df1975a3-6e71-40f6-a039-56f558f56932" valueTypeId="5cce2131-d67d-48dc-8164-89b18fa5801b"/>
+    <listType typeId="bbda9d17-cdf1-48c0-902c-fe8464cd7318" valueTypeId="68d6267a-ebf2-4460-850c-86224c3d3c31"/>
+    <managerType typeId="5ff808d4-f8f0-43e0-a11d-2d10d892c371" valueTypeId="90025235-9061-4d39-a14d-c447b08f0a26"/>
   </producedTypes>
   <name>оду_БазыУчастникиОбмена</name>
   <synonym>
@@ -14,6 +14,7 @@
   </synonym>
   <comment>Узлы обмена с базами аян</comment>
   <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.оду_БазыУчастникиОбмена.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.оду_БазыУчастникиОбмена.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
@@ -92,12 +93,45 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <characteristics>
+    <characteristicTypes>b456d820-8034-4381-960d-66d9f86b0a4b</characteristicTypes>
+    <keyField>0:bd55fd03-cf67-4333-a554-98e03d18f780</keyField>
+    <typesFilterField>0:a587cade-4c91-4769-9c6a-a4fb4fe94196</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Справочник_оду_БазыУчастникиОбмена</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>Catalog.оду_БазыУчастникиОбмена.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Catalog.оду_БазыУчастникиОбмена.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.оду_БазыУчастникиОбмена.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Catalog.оду_БазыУчастникиОбмена.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>1a7c774d-5b86-4051-b797-3081e19fa30a</characteristicTypes>
+    <keyField>0:00949768-5833-4fe2-8752-b009d1bceef8</keyField>
+    <typesFilterField>0:1300c46e-24d4-45cf-a899-3d26b5cf0b50</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Справочник_оду_БазыУчастникиОбмена</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>3ad5d8a7-3071-46aa-aebf-306bdb67983b</characteristicValues>
+    <objectField>0:cb954476-c551-4a06-9bcd-18d67ba47dc8</objectField>
+    <typeField>0:79201015-bfae-463e-81f1-0ae2d3066f3f</typeField>
+    <valueField>0:ab7ef662-71c1-4d51-9f0f-ea8c5ea3df8a</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>50</codeLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -106,7 +140,7 @@
   <defaultObjectForm>Catalog.оду_БазыУчастникиОбмена.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.оду_БазыУчастникиОбмена.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.оду_БазыУчастникиОбмена.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="3c185e1e-13d9-4dcc-a1ed-49897a592bc7">
+  <attributes uuid="007392d6-c662-4ea8-91b7-d87a269ab018">
     <name>Используется</name>
     <synonym>
       <key>ru</key>
@@ -122,7 +156,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6391ca4e-af5b-4f87-8528-789861262405">
+  <attributes uuid="193fa1ad-b706-497c-803f-6fc1a91662b7">
     <name>РежимОтладки</name>
     <synonym>
       <key>ru</key>
@@ -137,7 +171,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="81ae49be-df38-482a-94fd-fd721c743a04">
+  <attributes uuid="a35874cd-1e91-42ae-b609-6b389ebf0947">
     <name>ПриоритетОбмена</name>
     <synonym>
       <key>ru</key>
@@ -156,7 +190,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="80967722-ae98-47cb-a0fa-08435b14d839">
+  <attributes uuid="3caea5a8-88e0-463d-b617-7ba7ac57ba33">
     <name>ИДБазы</name>
     <synonym>
       <key>ru</key>
@@ -176,7 +210,7 @@
     </fillValue>
     <indexing>Index</indexing>
   </attributes>
-  <attributes uuid="ca23d626-153a-4ecb-a664-3f93b9651391">
+  <attributes uuid="070bfee4-8e1b-43f1-a2ad-ec9ae5d2f6a2">
     <name>ИДКонфигурации</name>
     <synonym>
       <key>ru</key>
@@ -197,7 +231,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="54f19f74-96ac-49df-aff3-f4d76e49e479">
+  <attributes uuid="52c5e35f-b36d-4208-a6b3-cc921cbe5901">
     <name>ТекущаяБД</name>
     <synonym>
       <key>ru</key>
@@ -212,7 +246,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ccaabba5-7f33-4b15-87e9-fe89e6f16f9a">
+  <attributes uuid="70923b31-d259-47f2-a8b6-422f2864ba8f">
     <name>ЭтоРабочаяБД</name>
     <synonym>
       <key>ru</key>
@@ -228,7 +262,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c0a7583c-8b39-4518-9fe8-9f095ad72e11">
+  <attributes uuid="c4cc6417-07bd-4276-a647-d24147e3de00">
     <name>Сервер</name>
     <synonym>
       <key>ru</key>
@@ -249,7 +283,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="460a43bd-5ae5-4b73-95de-1389abba1f1e">
+  <attributes uuid="f781331e-be9e-4eae-ac4c-6af29eafae86">
     <name>Порт</name>
     <synonym>
       <key>ru</key>
@@ -269,7 +303,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e6ba2d66-7a36-43b2-b6eb-94e204ada44f">
+  <attributes uuid="9ca1b165-7bb1-408f-ad49-25fda1357655">
     <name>Пользователь</name>
     <synonym>
       <key>ru</key>
@@ -290,7 +324,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d8c0136d-0bd7-4a5d-aecf-571d5083830b">
+  <attributes uuid="ae8538c3-d5ef-4e76-82a9-8152a3b0d6ff">
     <name>Пароль</name>
     <synonym>
       <key>ru</key>
@@ -311,7 +345,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a2dd4d98-6e9c-4e28-a38a-aadc29b5aa73">
+  <attributes uuid="fd98b1c5-31f4-485c-97ef-cddafd4093f5">
     <name>ИспользоватьПоддержкуРавныхОстатков</name>
     <synonym>
       <key>ru</key>
@@ -326,7 +360,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d38d7f9b-571f-4446-bb93-b94303b293e0">
+  <attributes uuid="9c760489-737a-4761-8bf9-73cc821ddffa">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -346,14 +380,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5a9f9b48-0dc9-4056-a641-b829ce0bd9d7">
+  <attributes uuid="4443c41c-e3f1-4fc4-8e9c-c39ed3e7e317">
     <name>ПравилоРегистрации</name>
     <synonym>
       <key>ru</key>
       <value>Правило регистрации</value>
     </synonym>
     <type>
-      <types>CatalogRef.оду_ПравилаРегистрацииОбмена</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -361,14 +398,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5b600077-ed9f-4ece-a705-f658ea715a77">
+  <attributes uuid="21ee7dcc-d65f-4034-8005-9c7c9ca249dc">
     <name>НастройкаКонвертацииОбмена</name>
     <synonym>
       <key>ru</key>
       <value>Настройка конвертации обмена</value>
     </synonym>
     <type>
-      <types>CatalogRef.оду_НастройкаКонвертацииДанных</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -376,7 +416,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="80d3fb0d-86e7-4449-b782-7c3b272bb208">
+  <attributes uuid="e3781719-6273-4730-a338-2ea38a96e10a">
     <name>ИспользоватьРегламентВыгрузкиДанных</name>
     <synonym>
       <key>ru</key>
@@ -391,7 +431,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="2c1bf388-ec6a-4397-9af0-608d855998a9">
+  <attributes uuid="0928e9d6-010e-4bed-a65e-086475475a9a">
     <name>ИспользоватьРегламентЗагрузкиДанных</name>
     <synonym>
       <key>ru</key>
@@ -406,7 +446,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9ca19673-70d4-442f-b75a-c54b46d4297c">
+  <attributes uuid="79cf7c2c-a559-4702-bd5a-d49d2a42790c">
     <name>ИспользоватьМеханизмОтложенногоПроведения</name>
     <synonym>
       <key>ru</key>
@@ -421,10 +461,117 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="49992743-87b3-46e5-b323-5992fc6ca53b">
+  <attributes uuid="e6cbbc4e-d680-46b0-bdf0-317627b540c0">
+    <name>ИмяКаталогаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя каталога обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="617fd55e-b377-46c9-89a9-2801d8141561">
+    <name>ПодчиненныйУчастникОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненный участник обмена</value>
+    </synonym>
+    <comment>Все входящие данные передает в подчиненные</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a53c346-bfb8-493f-b843-e886fddebe48">
+    <name>РаспределятьПодчиненнымУО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределять подчиненным УО</value>
+    </synonym>
+    <comment>Распределять данные обмена по подчиненным учатникам обмена</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc3f5ecf-c848-42b6-ad75-e7f2f0fbbd68">
+    <name>ПланОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>План обмена</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.оду_ПланОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29d7223d-2914-4e0f-adab-c7d5ef011050">
+    <name>ТекущаяВерсияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая версия конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="112685f2-cedc-40db-ad48-3f102bf0709e">
+    <name>ОтборыОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отборы обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="014cfd78-748c-471c-a389-096adf287f49">
     <producedTypes>
-      <objectType typeId="70fafe89-d752-4edc-8bdf-b153106f28a2" valueTypeId="add46723-5d90-41cd-a9f2-5ced7f2dac29"/>
-      <rowType typeId="fd08ba00-860d-4245-a9b6-ce0d5606cb44" valueTypeId="22d5a228-d43c-4370-97f1-a54e6ac28eff"/>
+      <objectType typeId="a9cd40c6-c5b4-423c-b16d-64d8d3b0ade4" valueTypeId="3e71b5ee-fb7b-46ea-8d95-3e1c2f5c99bb"/>
+      <rowType typeId="771707b2-cebb-4954-b414-d1dbd885cab3" valueTypeId="a63cb21f-4017-42cc-be20-031f39b2c451"/>
     </producedTypes>
     <name>Состав</name>
     <synonym>
@@ -439,7 +586,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="5dd083c2-43bb-4732-b484-21f103a0d9e8">
+    <attributes uuid="c15879bb-48d5-4841-85d1-a3406bdceaf7">
       <name>Объект</name>
       <synonym>
         <key>ru</key>
@@ -452,7 +599,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
     </attributes>
-    <attributes uuid="e7a58991-c970-4230-8a7f-9c5de4bcbd58">
+    <attributes uuid="422147be-7921-4a8f-90dc-f5b6779fc8e4">
       <name>ТипXMLОбъектаИсточника</name>
       <synonym>
         <key>ru</key>
@@ -468,7 +615,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <indexing>Index</indexing>
     </attributes>
-    <attributes uuid="67478b41-7a72-4692-8c43-1d0aa28b875d">
+    <attributes uuid="71ad7486-a968-4da9-9678-dbedb444b0dc">
       <name>ТипXMLОбъектаПриемника</name>
       <synonym>
         <key>ru</key>
@@ -484,7 +631,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <indexing>Index</indexing>
     </attributes>
-    <attributes uuid="be1891f5-bf0f-45e7-bd07-ee97a117496b">
+    <attributes uuid="572000a5-2029-447d-96df-e721dd3669c4">
       <name>Регистрировать</name>
       <synonym>
         <key>ru</key>
@@ -498,7 +645,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="798d36ed-c580-4e1a-a307-821b79ceb3fb">
+    <attributes uuid="a768728c-d5a1-4bb7-ac41-971822cc1241">
       <name>ИспользоватьСамолет</name>
       <synonym>
         <key>ru</key>
@@ -512,28 +659,34 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="ed97400e-5549-46a3-811c-02c345ee4d07">
+    <attributes uuid="3fd83713-80e8-4038-aa1c-30753a78d810">
       <name>ПравилоРегистрации</name>
       <synonym>
         <key>ru</key>
         <value>Правило регистрации</value>
       </synonym>
       <type>
-        <types>CatalogRef.оду_ПравилаРегистрацииОбмена</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="b9e09529-c27f-44a9-8727-770190a76dca">
+    <attributes uuid="ba5dd1a0-37c9-4f76-97ed-86888cacec85">
       <name>НастройкаКонвертацииОбмена</name>
       <synonym>
         <key>ru</key>
         <value>Настройка конвертации обмена</value>
       </synonym>
       <type>
-        <types>CatalogRef.оду_НастройкаКонвертацииДанных</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -541,15 +694,15 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="3fb415a8-cb56-49c6-83a1-ad73cefe38d8">
+  <tabularSections uuid="20f1ffe1-3069-41d8-8a3b-4f841aa05328">
     <producedTypes>
-      <objectType typeId="ea5af89f-755f-4ca0-9113-37c20e5f5520" valueTypeId="3d8c272f-8851-483b-832a-1f77866e3f83"/>
-      <rowType typeId="74000edb-7350-450e-9af8-4a37e2f0bd82" valueTypeId="23dcbbce-61ba-4f63-ba25-734c7817db92"/>
+      <objectType typeId="a4e8e115-62de-4260-9dc4-53cac2227edd" valueTypeId="00f91c80-d34c-4102-b2d6-a865adae62d7"/>
+      <rowType typeId="b579c1cb-c16f-426d-a229-729c8c62c670" valueTypeId="4a34847b-6c3d-4b89-bbf4-f9bf391ca6a7"/>
     </producedTypes>
     <name>Организации</name>
     <synonym>
       <key>ru</key>
-      <value>Организации</value>
+      <value>Отборы</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -559,11 +712,11 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="6b387876-0a69-4c2b-ad3f-7078ceb53a18">
+    <attributes uuid="592d49a9-b07f-48a9-9131-ab1893f287e8">
       <name>Организация</name>
       <synonym>
         <key>ru</key>
-        <value>Организация</value>
+        <value>Объект отбора</value>
       </synonym>
       <type>
         <types>CatalogRef.Организации</types>
@@ -572,7 +725,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
     </attributes>
-    <attributes uuid="37844e04-ba3c-436e-92d0-0650aeaab4b5">
+    <attributes uuid="86e1a9a7-0a52-4b13-93f9-a642e25f7f12">
       <name>ТипXMLОбъектаИсточника</name>
       <synonym>
         <key>ru</key>
@@ -588,7 +741,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <indexing>Index</indexing>
     </attributes>
-    <attributes uuid="e9153ff1-f412-4dc9-b7ca-3cfce7266988">
+    <attributes uuid="160a0540-3a84-476d-adde-49063c2f8238">
       <name>ИДОбъектаИсточника</name>
       <synonym>
         <key>ru</key>
@@ -605,7 +758,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="ba09ccbe-0673-40ab-ab66-3fcacd7d3199">
+    <attributes uuid="f0902542-2fe3-4373-9e51-6ab2fd908b82">
       <name>ТипXMLОбъектаПриемника</name>
       <synonym>
         <key>ru</key>
@@ -621,7 +774,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <indexing>Index</indexing>
     </attributes>
-    <attributes uuid="43377236-6841-480a-9ee4-86e61f40f46b">
+    <attributes uuid="df5a7902-2d22-4cba-8655-3f257aedd2e1">
       <name>ИДОбъектаПриемника</name>
       <synonym>
         <key>ru</key>
@@ -639,10 +792,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="849734c1-7997-4679-aa2e-e66c6108b4f3">
+  <tabularSections uuid="6d8f2969-750f-43ef-a5cd-953ce5342e83">
     <producedTypes>
-      <objectType typeId="090a3ff5-a82b-4457-b68b-1688a3569578" valueTypeId="8b153e17-9862-4065-86a8-cf9b7dea9bdd"/>
-      <rowType typeId="9fcb89c3-4ef0-4a75-90c7-e2a4e7cf5f91" valueTypeId="447b0f33-6bdd-413f-bc93-c9eec2b48ac4"/>
+      <objectType typeId="4997b1d1-de24-46ba-a839-618954711e70" valueTypeId="b3870597-62d5-43e0-badc-6eb28c18077d"/>
+      <rowType typeId="a341e87c-8cf5-4669-ad80-4431890b62eb" valueTypeId="95e14327-b13b-4aa0-be13-05707f9df86c"/>
     </producedTypes>
     <name>КонтрольОстатков</name>
     <synonym>
@@ -657,7 +810,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="b7d24039-762b-4927-a70b-d41e48c2448e">
+    <attributes uuid="ad4a1cef-0b5e-472b-9cb7-db94c8802757">
       <name>Объект</name>
       <synonym>
         <key>ru</key>
@@ -670,7 +823,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
     </attributes>
-    <attributes uuid="ae9057ef-ad8d-45ea-afc4-70e52aa749af">
+    <attributes uuid="f35fe151-46e4-44b7-8d50-ce143a5512e8">
       <name>ТипXMLОбъектаИсточника</name>
       <synonym>
         <key>ru</key>
@@ -686,7 +839,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <indexing>Index</indexing>
     </attributes>
-    <attributes uuid="c633ac44-1d76-45d9-9ccb-067e07011c03">
+    <attributes uuid="deec987e-21dd-4353-b990-c1a5b73ac64a">
       <name>ТипXMLОбъектаПриемника</name>
       <synonym>
         <key>ru</key>
@@ -702,7 +855,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <indexing>Index</indexing>
     </attributes>
-    <attributes uuid="3493b6c9-689c-495a-b3f6-afac8e9ce780">
+    <attributes uuid="921a87c9-cb51-4fa4-9602-761367a4e225">
       <name>Контролировать</name>
       <synonym>
         <key>ru</key>
@@ -717,10 +870,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="4ac65587-8ac2-482d-b7f0-be169f5d2ebe">
+  <tabularSections uuid="25cfcd0c-25ab-4279-8f4e-9623c0b60d3d">
     <producedTypes>
-      <objectType typeId="a7cc6cd1-0d53-4199-93c1-815f0dbf6eb2" valueTypeId="e5b9e049-2d02-42c6-b24c-854d8e1ae0ae"/>
-      <rowType typeId="cb1b2b17-0bd9-4a2d-bbbf-d7247f32f96b" valueTypeId="db7e305d-1f66-4c0a-8d04-07dc46d89f84"/>
+      <objectType typeId="876c8198-9b06-4bda-b574-7f5e32247f3b" valueTypeId="49baf1eb-a3ca-4d46-8f87-e06e5bf88a48"/>
+      <rowType typeId="7ce28623-4937-445c-9459-768fc469b148" valueTypeId="6ae815ca-c609-4b06-96f5-c5ca430cba00"/>
     </producedTypes>
     <name>ПроизвольныеЗапросы</name>
     <synonym>
@@ -735,7 +888,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="50ca3d9f-7517-4a22-92d1-73ee352af639">
+    <attributes uuid="a4665128-fd98-464e-966f-13e6cd89f24b">
       <name>Запрос</name>
       <synonym>
         <key>ru</key>
@@ -753,28 +906,34 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="85a53e4c-77c7-4b7c-9b02-7c7b7736b2d0">
+    <attributes uuid="519708c9-4c55-4e1b-8f9d-63cff4994dd7">
       <name>ПравилоРегистрации</name>
       <synonym>
         <key>ru</key>
         <value>Правило регистрации</value>
       </synonym>
       <type>
-        <types>CatalogRef.оду_ПравилаРегистрацииОбмена</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="435cfc36-ae91-489e-ac12-dc2a4b6e871b">
+    <attributes uuid="558ec8d6-e630-4e80-acc7-9f31e1b30d79">
       <name>НастройкаКонвертацииОбмена</name>
       <synonym>
         <key>ru</key>
         <value>Настройка конвертации обмена</value>
       </synonym>
       <type>
-        <types>CatalogRef.оду_НастройкаКонвертацииДанных</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -782,7 +941,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="9dd3d0f3-6f99-43a0-9d68-145d2af0ca66">
+  <forms uuid="07d26f57-18ff-4de9-853b-a00bdfa0fd64">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
@@ -791,16 +950,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="452cbebc-39ed-4d57-afeb-4aecf7682838">
-    <name>ФормаВыбораУчастникаОбмена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора участника обмена</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="b5df7643-aed8-485c-8dbb-79087c7fa7cd">
+  <forms uuid="04c7c24c-3034-4b22-8845-f5efa99fcf2c">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -809,11 +959,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d209f336-c15e-4b27-acc8-4889887a4b82">
+  <forms uuid="bf82e00c-0233-4cab-a9d9-343643e54187">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6877f145-2170-4897-a740-c837924d3634">
+    <name>ФормаВыбораУчастникаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора участника обмена</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

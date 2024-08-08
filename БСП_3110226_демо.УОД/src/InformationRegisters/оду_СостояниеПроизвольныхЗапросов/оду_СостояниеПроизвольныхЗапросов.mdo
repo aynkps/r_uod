@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e84c2e6-f0cd-4b9e-a70f-ddf93d5510a5">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4720725-dbdb-4ede-b515-e6f6dd1f2ed5">
   <producedTypes>
-    <selectionType typeId="15906015-6a12-45a3-b523-9a4526699d72" valueTypeId="bd37425e-19cf-4426-943f-bff5e96c8d4f"/>
-    <listType typeId="4f724766-aa4a-4097-91a0-a2ced11ac52a" valueTypeId="a4cf99be-41eb-4c73-bbcc-13f398c1932e"/>
-    <managerType typeId="fba658c2-8386-4455-a0e8-7a1584a8117e" valueTypeId="c1ddbe19-e8d9-45d9-acd5-bdd316af332f"/>
-    <recordSetType typeId="a1804bec-05b8-48c1-872e-bb5ec5493879" valueTypeId="8501129e-c323-49b0-a38d-a8f1457739a8"/>
-    <recordKeyType typeId="4dba31d0-4b54-4b75-af6a-63069acd06a5" valueTypeId="2b8a61d0-f404-417e-bc2d-75a47bd3fa1b"/>
-    <recordType typeId="9c6ba183-0595-4137-aac9-5be55b21baa6" valueTypeId="6ab1274e-fc60-4e38-98e6-0bfd7d3a0ebe"/>
-    <recordManagerType typeId="d545f223-47a0-480e-b300-01d062e7786c" valueTypeId="396e2743-649e-4bf3-a355-fd75bb655431"/>
+    <selectionType typeId="c70ed4ef-10a9-4c1f-87b6-5727bad0c986" valueTypeId="bdbf3cf5-6037-4910-bf54-50b8c9d9f9fa"/>
+    <listType typeId="e67b054f-cc7c-4c64-866c-b53164c024a5" valueTypeId="60dc8051-0bcc-484b-8ef4-f140f111eeaa"/>
+    <managerType typeId="d1a0b23b-cd64-47b0-b955-c6befd33906e" valueTypeId="7b51b069-53a1-4466-bc70-cd6aa9907024"/>
+    <recordSetType typeId="1050be57-4f82-4adb-84f4-5339b3456ae8" valueTypeId="43ebc7d2-55ac-4dc2-9647-78c4d31057d0"/>
+    <recordKeyType typeId="2ee2ad80-1ba6-4651-bccd-9af0f7cb0308" valueTypeId="91814d14-f617-450c-9b4c-c542acb0d989"/>
+    <recordType typeId="9aabc1e6-46d9-4294-8605-fd8efb6825ec" valueTypeId="f176698f-3c62-4823-8ab9-11f4d046d88a"/>
+    <recordManagerType typeId="4fec9326-aecf-46d4-aec2-3886f5be1ed7" valueTypeId="d3fa8092-75c9-4c69-940d-21e1c553aec7"/>
   </producedTypes>
   <name>оду_СостояниеПроизвольныхЗапросов</name>
   <synonym>
@@ -56,7 +56,7 @@
     <key>ru</key>
     <value>Состояние  произвольного запроса</value>
   </recordPresentation>
-  <resources uuid="f8709cfa-ea1b-41b6-aba7-b06da84835fb">
+  <resources uuid="6fbe0fbb-eca6-4878-bb97-c21c92a36e8b">
     <name>ИмяЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -76,7 +76,7 @@
       <value></value>
     </fillValue>
   </resources>
-  <resources uuid="955903f6-f23c-44b7-9bce-db9c026a5ec4">
+  <resources uuid="3adb46c4-5360-4ff0-919f-5d38c22fbf60">
     <name>НомерЭтапаЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -94,7 +94,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="9b4ad2af-621b-4917-ab80-cd5e19b01c12">
+  <resources uuid="d5f58ada-18e7-46db-913f-6ec883fa1a65">
     <name>ДатаСобытия</name>
     <synonym>
       <key>ru</key>
@@ -110,7 +110,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="01b057c0-51a3-4bda-aa1e-a88f84b795e8">
+  <resources uuid="44306b51-5657-4af4-b9eb-6b58a07cd21a">
     <name>СостояниеЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -125,7 +125,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="24b37801-71d2-406c-9a75-626f5d759eca">
+  <resources uuid="058e466d-a8f4-452d-ae7e-cf56f54c1e7b">
     <name>РежимОтладки</name>
     <synonym>
       <key>ru</key>
@@ -140,7 +140,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="ab3128f5-43f7-40e8-806b-36289cb06c7a">
+  <resources uuid="60b07da0-916e-4d86-a9d8-152793a113df">
     <name>Пользователь</name>
     <synonym>
       <key>ru</key>
@@ -158,7 +158,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="e28fb144-d743-4d8f-823d-f2754cf18f3a">
+  <resources uuid="f8b77351-b98f-4b65-b5be-fc82d6b9ffe6">
     <name>ПутьКОбработкеИсточник</name>
     <synonym>
       <key>ru</key>
@@ -178,7 +178,7 @@
       <value></value>
     </fillValue>
   </resources>
-  <resources uuid="f3b268e9-d870-4d1d-bc0b-16db5f1343e4">
+  <resources uuid="f3eaba43-49df-4d17-990f-d80a50c1fe5f">
     <name>ПутьКОбработкеПриемник</name>
     <synonym>
       <key>ru</key>
@@ -198,7 +198,7 @@
       <value></value>
     </fillValue>
   </resources>
-  <resources uuid="e52e8957-1588-4c98-a029-ea920c410581">
+  <resources uuid="77e3513d-1b35-4266-81b2-0842eea7eae1">
     <name>КонфигурацияКонвертацииЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -213,7 +213,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="7424b8dd-e31c-490b-87ef-c65a77e4349b">
+  <resources uuid="cb776717-b98c-4588-9435-ae699c29d919">
     <name>ДанныеЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -228,7 +228,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="71cb1f39-5a94-4e5a-901a-60caa8762244">
+  <resources uuid="7b3ecad6-9823-435c-8a5a-b045a7ac7c55">
     <name>ПараметрыЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -246,7 +246,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="97bc2cdf-f86a-44e8-b791-4fc3a0722b48">
+  <resources uuid="b7fecc61-561c-4269-8650-be30e533f206">
     <name>ИмяФайлаЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -267,7 +267,7 @@
     </fillValue>
     <indexing>Index</indexing>
   </resources>
-  <resources uuid="00564146-19d7-4d9b-bab5-7b5a8cc7bbfc">
+  <resources uuid="d45049e8-04a5-4540-8fc1-907f72ef9ec5">
     <name>ТекстЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -289,7 +289,7 @@
       <value></value>
     </fillValue>
   </resources>
-  <dimensions uuid="0ddfd0a7-b55d-4f99-9628-42db8ba3f8f4">
+  <dimensions uuid="0dc511e6-0441-4329-a1df-1a799d3ce31b">
     <name>ИДЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -312,7 +312,7 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="34e84a31-a973-4512-be05-18b1d0eff93a">
+  <dimensions uuid="991a237d-23be-4651-9700-3b392b70fe14">
     <name>ИДБазыИсточник</name>
     <synonym>
       <key>ru</key>
@@ -334,7 +334,7 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="54c2b26e-da82-41b2-9559-d161f622840b">
+  <dimensions uuid="0b1876c4-3961-433e-a5f0-f6c9d4e80718">
     <name>ИДБазыПриемник</name>
     <synonym>
       <key>ru</key>
@@ -356,7 +356,7 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="3d6936de-98b9-45df-aa57-e7a684dd7914">
+  <forms uuid="d46d9b64-8445-482e-9618-a1ce7e5fd536">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -365,7 +365,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="c964d557-f40e-48f6-96cb-b6a3f091ed72">
+  <forms uuid="a153cd5a-e933-405c-b210-7c20bd2b1146">
     <name>ФормаЗаписи</name>
     <synonym>
       <key>ru</key>
@@ -374,7 +374,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <commands uuid="c73c9d9a-6651-423c-92a5-ca479137d7ea">
+  <commands uuid="97da0ef4-9d51-4a96-9c8f-1037acb368da">
     <name>ВыполнитьМетодЗапроса</name>
     <synonym>
       <key>ru</key>

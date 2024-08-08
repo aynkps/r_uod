@@ -7,13 +7,17 @@
   </synonym>
   <location>Constant.оду_ИспользоватьУниверсальныйОбмен</location>
   <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.оду_ОбменДанными.Subsystem.НастройкиИСправочники</content>
+  <content>DataProcessor.оду_УниверсальныйОбменДаннымиXML</content>
+  <content>ExchangePlan.оду_ПланОбмена</content>
   <content>CommonCommand.оду_ВыполнитьУниверсальныйОбменПоОбъекту</content>
+  <content>Catalog.оду_БазыУчастникиОбмена</content>
+  <content>Catalog.оду_НастройкаКонвертацииДанных</content>
+  <content>Catalog.оду_ПравилаРегистрацииОбмена</content>
   <content>InformationRegister.оду_ОшибкиОбмена</content>
   <content>InformationRegister.оду_РегистрацияОбъектовОбмена</content>
-  <content>InformationRegister.оду_СостояниеОбъектовОбмена</content>
-  <content>Subsystem.оду_ОбменДанными.Subsystem.НастройкиИСправочники</content>
-  <content>Catalog.оду_БазыУчастникиОбмена</content>
-  <content>DataProcessor.оду_УниверсальныйОбменДаннымиXML</content>
-  <content>Catalog.оду_НастройкаКонвертацииДанных</content>
   <content>InformationRegister.оду_СинхронизацияРегистровУчета</content>
+  <content>InformationRegister.оду_СостояниеОбъектовОбмена</content>
+  <content>InformationRegister.оду_СостояниеПроизвольныхЗапросов</content>
+  <content>InformationRegister.оду_ВерсииПравилОбменаДанными</content>
 </mdclass:FunctionalOption>
